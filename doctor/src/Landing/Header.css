@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+
+.clock{
+    height: 35px;
+    width: 100%;
+    background-color: #EAF6FF;
+}
+
+.headbar{
+    height: 55px;
+    width: 100%;
+    
+}
+
+.H1{
+    height: 50px;
+    width: 50px;
+}
+
+.part1{
+    width: 40%;
+    background-color: antiquewhite;
+}
+.part2{
+    width: 60%;
+}
