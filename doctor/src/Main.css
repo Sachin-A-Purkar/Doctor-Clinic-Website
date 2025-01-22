@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    flex: 1 1 calc(100% - 2rem); /* Full width by default */
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .box {
+        flex: 1 1 calc(50% - 2rem); /* Two columns on tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        flex: 1 1 calc(33.33% - 2rem); /* Three columns on desktops */
+    }
+}
