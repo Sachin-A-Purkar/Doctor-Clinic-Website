@@ -25,11 +25,11 @@ export default function Header() {
                 <a href="#home"> PAGES </a>
                 <a href="#home"> CONTACT </a>
             </div>
-            <a href='#home'>
-              <div className="part3">
-                Appointment <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </a>
+
+            <div className="part3">
+              <button>Appointment <FontAwesomeIcon icon={faArrowRight} /></button>
+            </div>
+            
             
       </div>
     </div>
