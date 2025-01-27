@@ -22,16 +22,16 @@ const Carousle = () => {
         <div className='totalt'><h1 className='chead1'>" Good Health is the Foundation of<br/> a <u>Happy Life</u>"</h1></div>
         <div className='total'>
           <div className='total1'>
-            <h2 >Total Patients</h2>
             <h1><CountUp start={1000} end={12678} duration={2} /></h1>
+            <h2 >Total Patients</h2>
           </div>
           <div className='total2'>
-            <h2 >Total Doctors</h2>
             <h1><CountUp start={10} end={124} duration={2} /></h1>
+            <h2>Total Doctors</h2>
           </div>
           <div className='total3'>
-            <h2>Total Staff</h2>
             <h1><CountUp start={10} end={678} duration={2} /></h1>
+            <h2>Total Staff</h2>
           </div>
         </div>
       </div>

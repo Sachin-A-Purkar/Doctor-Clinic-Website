@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Macondo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+VN:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 .header{
-    width: 100%;
-    height: 95px;
+    width: 100em;
+    height: 7em;
 }
 
 .clock{
-    height: 35px;
-    width: 100%;
+    height: 5vh;
+    width: 100vw;
     background-color: #EAF6FF;
 }
 
