@@ -93,15 +93,17 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  margin-top: 50px;
   
 }
 
 .total1,.total2,.total3{
   text-align: left;
   line-height-step: 1;
-  height: 100px;
-  border-left: 5px solid white;
-  
+  height: 80px;
+  border-left: 5px solid white ;
+  line-height: 110%;
+  padding-left: 10px;
 }
 
 .total h2{
